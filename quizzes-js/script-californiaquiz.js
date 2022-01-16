@@ -85,28 +85,33 @@ const questions = [
         ]
     },
     {
-      question: 'Who is the best YouTuber?',
+      question: 'Everyone who live in California has been to Hollywood and know a celebrity.',
       answers: [
-        { text: 'Web Dev Simplified', correct: true },
-        { text: 'Traversy Media', correct: true },
-        { text: 'Dev Ed', correct: true },
-        { text: 'Fun Fun Function', correct: true }
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
       ]
     },
     {
-      question: 'Is web development fun?',
+      question: 'Northern and Southern California are like chalk and cheese in terms of local culture.',
       answers: [
-        { text: 'Kinda', correct: false },
-        { text: 'YES!!!', correct: true },
-        { text: 'Um no', correct: false },
-        { text: 'IDK', correct: false }
+        { text: 'True', correct: true},
+        { text: 'False', correct: false}
       ]
     },
     {
-      question: 'What is 4 * 2?',
+      question: 'California has both the highest and lowest point in the continental United States',
       answers: [
-        { text: '6', correct: false },
-        { text: '8', correct: true }
+        { text: 'True', correct: true },
+        { text: 'False', correct: false }
       ]
+    },
+    {
+        question: 'What city was the state capitol orginally in?',
+        answers: [
+            {text: 'Sacramento', correct: false},
+            {text: 'San Jose', correct: true},
+            {text: 'San Francisco', correct: false},
+            {text: 'Santa Barbara', correct: false}
+        ]
     }
 ]

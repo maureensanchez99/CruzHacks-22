@@ -85,28 +85,26 @@ const questions = [
         ]
     },
     {
-      question: 'Who is the best YouTuber?',
-      answers: [
-        { text: 'Web Dev Simplified', correct: true },
-        { text: 'Traversy Media', correct: true },
-        { text: 'Dev Ed', correct: true },
-        { text: 'Fun Fun Function', correct: true }
-      ]
-    },
+        question: 'If I vote, it does not make a difference',
+        answers: [
+            { text: 'True', correct: false},
+            { text: 'False', correct: true}
+        ]
+      },
+      {
+        question: 'What helps slow down the spread of COVID',
+        answers: [
+          { text: 'Wearing masks when around others', correct: true },
+          { text: 'Practice social distancing from those not in your household', correct: true },
+          { text: 'Making sure to wash your hands after touching things that other people might have', correct: true },
+          { text: 'Getting the COVID vaccine', correct: true }
+        ]
+      },
     {
-      question: 'Is web development fun?',
+      question: 'If you are a cop and ever commit a crime on the job, your charges will be dropped.',
       answers: [
-        { text: 'Kinda', correct: false },
-        { text: 'YES!!!', correct: true },
-        { text: 'Um no', correct: false },
-        { text: 'IDK', correct: false }
-      ]
-    },
-    {
-      question: 'What is 4 * 2?',
-      answers: [
-        { text: '6', correct: false },
-        { text: '8', correct: true }
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
       ]
     }
 ]

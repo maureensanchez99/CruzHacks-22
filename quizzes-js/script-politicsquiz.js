@@ -78,35 +78,31 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'Everyone in Calfornia wants to be in the entertainment industry. ',
+        question: 'There are only two politcal parties: the Democrats & the Republicans. ',
         answers: [
             { text: 'True', correct: false},
             { text: 'False', correct: true}
         ]
     },
     {
-      question: 'Who is the best YouTuber?',
+        question: 'If I vote, it does not make a difference',
+        answers: [
+            { text: 'True', correct: false},
+            { text: 'False', correct: true}
+        ]
+      },
+    {
+      question: 'To engage in politcs, your views must either be far left or far right.',
       answers: [
-        { text: 'Web Dev Simplified', correct: true },
-        { text: 'Traversy Media', correct: true },
-        { text: 'Dev Ed', correct: true },
-        { text: 'Fun Fun Function', correct: true }
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
       ]
     },
     {
-      question: 'Is web development fun?',
+      question: 'If you are a cop and ever commit a crime on the job, your charges will be dropped.',
       answers: [
-        { text: 'Kinda', correct: false },
-        { text: 'YES!!!', correct: true },
-        { text: 'Um no', correct: false },
-        { text: 'IDK', correct: false }
-      ]
-    },
-    {
-      question: 'What is 4 * 2?',
-      answers: [
-        { text: '6', correct: false },
-        { text: '8', correct: true }
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
       ]
     }
 ]
