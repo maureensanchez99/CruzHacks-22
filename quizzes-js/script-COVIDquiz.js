@@ -78,35 +78,33 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'Everyone in Calfornia wants to be in the entertainment industry. ',
+        question: 'If I get COVID once, I cannot get it again. ',
         answers: [
             { text: 'True', correct: false},
             { text: 'False', correct: true}
         ]
     },
     {
-      question: 'Who is the best YouTuber?',
+      question: 'Masks do not help stop the spread.',
       answers: [
-        { text: 'Web Dev Simplified', correct: true },
-        { text: 'Traversy Media', correct: true },
-        { text: 'Dev Ed', correct: true },
-        { text: 'Fun Fun Function', correct: true }
+        { text: 'True', correct: false},
+        { text: 'False', correct: true}
       ]
     },
     {
-      question: 'Is web development fun?',
+      question: 'What helps slow down the spread of COVID',
       answers: [
-        { text: 'Kinda', correct: false },
-        { text: 'YES!!!', correct: true },
-        { text: 'Um no', correct: false },
-        { text: 'IDK', correct: false }
+        { text: 'Wearing masks when around others', correct: true },
+        { text: 'Practice social distancing from those not in your household', correct: true },
+        { text: 'Making sure to wash your hands after touching things that other people might have', correct: true },
+        { text: 'Getting the COVID vaccine', correct: true }
       ]
     },
     {
-      question: 'What is 4 * 2?',
+      question: 'Getting the COVID vaccine increases your chances of surviving if you get infected with COVID in the future',
       answers: [
-        { text: '6', correct: false },
-        { text: '8', correct: true }
+        { text: 'True', correct: true},
+        { text: 'False', correct: false}
       ]
     }
 ]
